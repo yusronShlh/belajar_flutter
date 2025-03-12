@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
                       );
                     } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
                       return const Center(
-                        child: Text("Tidak ada catatn di temukan"),
+                        child: Text("Tidak ada catatan di temukan"),
                       );
                     } else {
                       final todos = snapshot.data!;
